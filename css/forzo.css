@@ -1,0 +1,343 @@
+body{ 
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.fundo{
+    position: relative;
+    background-image: url("../img/fundo.jpg");
+    background-size: 100% 108%;
+    background-repeat: no-repeat;
+    background-position-y: 76%;
+    padding-left: 100%;
+    padding-bottom: 47%;
+}
+.preto1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.733);
+    z-index: 1999;
+    padding-left: 100%;
+    padding-bottom: 47%;
+}
+.logo{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    z-index: 2000;
+}
+nav{
+    position: absolute;
+    top: 8%;
+    left: 41%;
+    font-weight: 800;
+    z-index: 2000;
+    
+}
+a{
+    padding-left: 37px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+h1{
+    position: absolute;
+    top: 23%;
+    left: 2%;
+    font-weight: 800;
+    z-index: 2000;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-transform: uppercase;
+
+}
+h2{
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    font-weight: 400;
+    z-index: 2000;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 21px;
+    line-height: 42px;
+}
+.lef{
+    position: absolute;
+    top:91%;
+    left: 91%;
+    background-color: rgb(255, 255, 255);
+    z-index: 2000;
+    padding: 2%;
+ 
+}
+.rig{
+    position: absolute;
+    top:91%;
+    left: 95.2%;
+    background-color: rgb(255, 255, 255);
+    z-index: 2000;
+    padding: 2%;
+  }
+  .a{
+      position: absolute;
+      top: 89%;
+      left: 2%;
+      background-color: rgb(3, 238, 207);
+      width: 0.2%;
+      height: 6%;
+      z-index: 2000;
+  }
+ 
+.b{
+    position: absolute;
+    top: 91%;
+    left: 3.5%;
+    background-color: rgb(255, 255, 255);
+    width: 0.2%;
+    height: 4%;
+    z-index: 2000;
+}
+.c{
+    position: absolute;
+    top: 91%;
+    left: 4.5%;
+    background-color: rgb(255, 255, 255);
+    width: 0.2%;
+    height: 4%;
+    z-index: 2000;
+}
+.d{
+    position: absolute;
+    top: 91%;
+    left: 5.5%;
+    background-color: rgb(255, 255, 255);
+    width: 0.2%;
+    height: 4%;
+    z-index: 2000;
+}
+.dupla{
+    display: flex ;
+    flex-direction: row;
+    padding-bottom: 17%;
+    
+}
+h3{
+    
+    padding-top: 23%;
+    padding-left: 22%;
+    font-size: 26px;
+    color: rgb(196, 196, 196);
+}
+h4{
+    margin-top: -3%;
+    padding-top: 4%;
+    padding-left: 21%;
+    font-size: 51px;
+    font-weight: 900;
+}
+h5{
+   
+    font-size: 20px;
+    margin-top: -2%;
+    margin-left: 22%;
+    margin-right: -23%;
+    line-height: 35px;
+    font-weight: 100;
+}
+.preto{
+    margin-left: 22%;
+    margin-top: -3%;
+    font-size: 20px;
+    color: white;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+.traço{
+  
+   margin-left: 114%;
+   padding-right: 20%;
+   padding-bottom: 16%;
+   border-bottom:1px solid rgb(0, 0, 0);
+
+}
+
+.ser{
+    background-image: url('../img/servo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 60%;
+    padding-left: 29%;
+    padding-bottom: 35%;
+
+}
+.branco{
+    margin-top: -109%;
+    margin-left: 140%;
+    padding-left: 90%;
+    padding-bottom: 103%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.bran{
+    margin-top: -83%;
+    margin-left: 134%;
+    padding-left: 102%;
+    padding-bottom: 115%;
+    background-color:  rgba(209, 209, 209, 0.171);
+    border-radius: 47px;
+   
+}
+.traçob{
+   
+    padding-top: 2%;
+    margin-left: 0%;
+    padding-right: 10%;
+    border-top:1px solid rgb(0, 0, 0);
+ 
+ }
+.texa{
+
+    margin-top: -7%;   
+    font-weight: 900;
+    font-size: 59px;
+    text-align: center;
+    letter-spacing: 10px;
+ }
+
+.traçoc{
+
+    margin-left: 47.5%;
+    padding-top: 0%;
+    padding-right: 4%;
+    border-top: 4px solid rgb(0, 0, 0);
+ 
+ }
+ 
+ .texc{
+    margin-top: 0%;   
+    font-size: 18px;
+    text-align: center;
+ }
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 11%;
+    
+}
+.fots{
+    display: flex;
+    flex-direction: row;
+    
+}
+.pedra{
+    background-image: url('../img/pedra.png');
+    background-size: cover;
+    width: 24.5%;
+    height: 24.5%;
+    padding-bottom: 25%;
+    margin-left: 0.5%;
+   
+   
+}
+.chave{
+    background-image: url('../img/chave.png');
+    background-size: cover;
+    width: 24.5%;
+    height: 24.5%;
+    padding-bottom: 25%;
+    margin-left: 0.5%;
+}
+.caiza{
+    background-image: url('../img/caiza.png');
+    background-size: cover;
+    width: 24.5%;
+    height: 24.5%;
+    padding-bottom: 25%;
+    margin-left: 0.5%;
+}
+.fone{
+    background-image: url('../img/fone.png');
+    background-size: cover;
+    background-position-x: 50%;
+    width: 24.5%;
+    height: 24.5%;
+    padding-bottom: 50.5%;
+    margin-left: 0.5%;
+  
+}
+.chave2{
+    background-image: url('../img/chave2.png');
+    background-size: cover;
+    width: 24.5%;
+    height: 24.5%;
+    margin-top: -25%;
+    padding-bottom: 25%;
+    margin-left: 0.5%;
+}
+
+.disco{
+    background-image: url('../img/disco.png');
+    background-size: cover;
+    width: 24.5%;
+    height: 24.5%;
+    margin-top: -25%;
+    padding-bottom: 25%;
+    margin-left: 0.5%;
+}
+
+.caixa{
+    background-image: url('../img/caixa.png');
+    background-size: cover;
+    width: 24.5%;
+    height: 24.5%;
+    margin-top: -25%;
+    padding-bottom: 25%;
+    margin-left: 25.5%;
+}
+.amaz,.photo,.perf,.fixed,.docum,.font{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+.tex3,.tex4{
+    display: flex;
+    flex-direction: row;
+    
+}
+.titulo{
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 65px;
+}
+.corpo{
+    font-weight: 100;
+    font-size: 19px;
+    line-height: 25px;
+    padding-left: 18%;
+    margin-right: -19%;
+}
+.icon{
+    border: 1px solid cyan;
+    margin-left: -29%;
+    margin-right: 17%;
+    font-size: 51px;
+    color: cyan;
+    padding: 17px;
+    text-align: center;
+}
+.recent{
+    margin-top: 15%;
+}
+.duo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+}
