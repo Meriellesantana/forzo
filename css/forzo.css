@@ -254,12 +254,13 @@ h5{
     display: flex;
     flex-direction: row;
     margin-top: 11%;
+    position: relative;
     
 }
 .fots{
     display: flex;
     flex-direction: row;
-    
+
 }
 .pedra{
     background-image: url('../img/pedra.png');
@@ -503,4 +504,92 @@ h5{
 .q:hover,.r:hover,.s:hover,.t:hover{
     cursor: pointer;
     color:  rgba(53, 53, 53, 0.575);
+}
+.efeito{
+    position: absolute;
+    background-color: rgba(72, 224, 235, 0);
+    width: 25%;
+    height: 50%;
+    color: rgba(255, 255, 255, 0);
+}
+.mais{
+    font-size: 55px;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-bottom: 50%;
+    
+
+}
+.bott{
+    font-size: 27px;
+    font-weight: 900;
+    margin-left: 5%;
+    margin-bottom: 2%;
+
+}
+.fotss{
+    margin-left: 5%;
+
+}
+.efeito2{
+    position: absolute;
+    left: 25.5%;
+    background-color: rgba(72, 224, 235, 0);
+    width: 24.5%;
+    height: 50%;
+    color: rgba(255, 255, 255, 0);
+}
+.efeito3{
+    position: absolute;
+    left: 50.5%;
+    background-color: rgba(72, 224, 235, 0);
+    width: 24.5%;
+    height: 100%;
+    color:rgba(255, 255, 255, 0);
+}
+.mais3{
+    font-size: 55px;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-bottom: 147%;
+
+}
+.efeito4{
+    position: absolute;
+    left: 75.5%;
+    background-color: rgba(72, 224, 235, 0);
+    width: 24.5%;
+    height: 49.5%;
+    color: rgba(255, 255, 255, 0);
+}
+.efeito5{
+    position: absolute;
+    top: 50.5%;
+    background-color:rgba(72, 224, 235, 0);
+    width: 25%;
+    height: 50%;
+    color: rgba(255, 255, 255, 0);
+}
+.efeito6{
+    position: absolute;
+    top: 50.5%;
+    left: 25.5%;
+    background-color:rgba(72, 224, 235, 0);
+    width: 24.5%;
+    height: 50%;
+    color: rgba(255, 255, 255, 0);
+}
+.efeito7{
+    position: absolute;
+    top: 50.5%;
+    left: 75.5%;
+    background-color: rgba(72, 224, 235, 0);
+    width: 24.5%;
+    height: 49.5%;
+    color: rgba(255, 255, 255, 0);
+}
+.efeito:hover,.efeito2:hover,.efeito3:hover,.efeito4:hover,.efeito5:hover,.efeito6:hover,.efeito7:hover{
+    background-color: rgba(72, 235, 200, 0.637);
+    color: white;
+    cursor: pointer;
 }
